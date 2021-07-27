@@ -54,19 +54,23 @@
                     android:id="@+id/data"
                     android:layout_width="372dp"
                     android:layout_height="wrap_content"
-                    android:text="@{NasaProperty.date}" />
+                    android:fontFamily="@font/roboto_slab_bold"/>
+<!--                    android:text="@{NasaProperty.date}" />-->
 
                 <TextView
                     android:id="@+id/mediaType"
                     android:layout_width="372dp"
                     android:layout_height="wrap_content"
-                    android:text="@{NasaProperty.title}" />
+                    android:fontFamily="@font/roboto_bold_italic"/>
+<!--                    android:text="@{NasaProperty.title}" />-->
 
                 <TextView
-                    android:id="@+id/axplanation"
+                    android:id="@+id/explanation"
                     android:layout_width="372dp"
                     android:layout_height="wrap_content"
-                    android:text="@{NasaProperty.explanation}" />
+                    android:fadeScrollbars="true"
+                    android:fontFamily="@font/roboto_medium" />
+<!--                    android:text="@{NasaProperty.explanation}" />-->
 
             </LinearLayout>
         </ScrollView>
