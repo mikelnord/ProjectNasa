@@ -26,5 +26,7 @@ fun bindImage(imgView: ImageView, imgUrl: String?) {
 
 @BindingAdapter("goneIfNotNull")
 fun goneIfNotNull(view: View, it: Any?) {
-    view.visibility = if (it != null) View.GONE else View.VISIBLE
+    view.visibility = if (it != null) {
+        View.GONE
+    } else View.VISIBLE
 }
